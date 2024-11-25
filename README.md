@@ -138,6 +138,8 @@ Ahora si vemos la carpeta descarga veremos los siguientes archivos
 
 Como podemos ver tenemos el Silent Hill Origins, Taito Legends y Guitar Hero Metallica descargados, para descomprimirlos la clave a utilizar es **gamesgx.net**
 
+Para descargar juegos de PS1 recomiendo la página [CD Romance](https://cdromance.org/)
+
 ### Transformar Juegos PS2 BIN / CUE a ISO
 
 Se acuerdan que para OPL elegimos el modo Normal (iso + zso + ul.cfg), esto quiere decir que no podemos utilizar los juegos BIN / CUE directamente sino que debemos transformarlos a ISO, para esto utilizaremos [PS2 BIN 2 ISO v0.1](https://www.ps2-home.com/forum/viewtopic.php?t=548)
@@ -175,9 +177,6 @@ Finalmente presionamos Convert BIN 2 ISO, veremos la siguiente ventana
 Ahora si entramos a la carpeta de Taito Legends, veremos el ISO creado
 
 ![PS2 BIN 2 ISO BIN ISO Creado](/images/Transformar%20Juegos%20BIN-CUE-09.png)
-
-### Transformar Juegos PS1 BIN / CUE a VCD
-
 
 ### Pasar Juegos al USB / HDD
 
@@ -260,11 +259,153 @@ Ahora si entramos a la unidad USB / HDD en la raiz veremos lo siguiente
 
 Como podemos ver dividio el juego en varias partes y creo un archivo **ul.cfg**, este archivo contiene el listado de juegos pasados de esta forma.
 
+
+### Transformar Juegos PS1 BIN / CUE a VCD
+
+Para este ejemplo particular descargaré el juego [Parasite Eve](https://cdromance.org/psx-iso/parasite-eve-usa/), presionamos el botón blanco FIND LINKS
+
+![Descargar Parasite Eve](/images/Transformar%20Juegos%20PS1%20BIN-CUE-01.png)
+
+Como podemos ver este juego cuenta con 2 discos, descargaremos ambos
+
+![Descargar Parasite Eve](/images/Transformar%20Juegos%20PS1%20BIN-CUE-02.png)
+
+Una vez descargado descomprimiremos los 2 discos
+
+![Parasite Eve Discos Descomprimidos](/images/Transformar%20Juegos%20PS1%20BIN-CUE-03.png)
+
+Para transformar los juegos de PS1 BIN / CUE a VCD utilizaremos la aplicación **CUE2POPS** en este foro [CUE2POPS](https://www.ps2-home.com/forum/viewtopic.php?t=5125)
+
+Una vez descargada lo descomprimimos
+
+![CUE2POPS Descomprimido](/images/Transformar%20Juegos%20PS1%20BIN-CUE-04.png)
+
+Una vez adentro de la carpeta veremos los siguientes archivos
+
+![CUE2POPS Carpeta](/images/Transformar%20Juegos%20PS1%20BIN-CUE-05.png)
+
+Debemos copiar el archivo **CUE2POPS_2_3.EXE** en la carpeta del BIN / CUE que queremos transformar en VCD, en este caso lo hare para Parasite Eve Disc 1 y Disc 2
+
+![Parasite Eve Disc 1](/images/Transformar%20Juegos%20PS1%20BIN-CUE-06.png)
+
+Una vez copiado dentro de la carpeta del BIN / CUE, simplemente seleccionamos el CUE y lo arrastramos encima del **CUE2POPS_2_3.EXE** y creará el archivo VCD
+
+![Parasite Eve Disc 1 VCD](/images/Transformar%20Juegos%20PS1%20BIN-CUE-07.png)
+
+Ahora hacemos lo mismo con el Disco 2
+
+![Parasite Eve Disc 2 VCD](/images/Transformar%20Juegos%20PS1%20BIN-CUE-08.png)
+
+Ahora debemos copiar estos archivos VCD a la carpeta POPS de la unidad USB / HDD
+
+![POPS](/images/Transformar%20Juegos%20PS1%20BIN-CUE-09.png)
+
+Como podemos ver tenemos Parasite Eve con sus 2 discos, ahora en este caso particular tenemos una unidad USB / HDD desde cero, así que deberemos descargar estos archivos adicionales [POPStarter](https://mega.nz/file/jsl12IzC#YjsYefCAqw3uC0kyqqExAMdig-KnC6o1FVC0stXtyIY)
+
+Una vez descargado lo descomprimimos
+
+![POPStarter Folder](/images/Transformar%20Juegos%20PS1%20BIN-CUE-10.png)
+
+Una vez dentro de la carpeta veremos los siguientes archivos
+
+![POPStarter Folder](/images/Transformar%20Juegos%20PS1%20BIN-CUE-11.png)
+
+A continuación una explicación de los archivos:
+
+- POPSTARTER.ELF: Es el ejecutable que se encarga de abrir los juegos PS1
+- IGR_BG.TM2: Es el fondo de la ventana al querer cambiar de juego
+- IGR_YES.TM2: Botón Sí (Yes) de salir para cambiar de juego
+- IGR_NO.TM2: Botón NO de salir para cambiar de juego
+
+**NOTA:** Por defecto deje las texturas en español (spanish)
+
+Ahora simplemente copiamos estos archivos a la carpeta POPS
+
+![POPS Mas POPStarter](/images/Transformar%20Juegos%20PS1%20BIN-CUE-12.png)
+
+Ahora podemos continuar con el renombramiento de los juegos y la descarga de caratulas
+
 ### Renombrar Juegos / Descargar Caratulas OPL Manager
 
-Ahora que pasamos los juegos volvamos a OPL Manager para renombrar los juegos para que cumplan el formato que pide OPL y podamos descargar las caratulas de los juegos
+Ahora que pasamos los juegos volvamos a OPL Manager para renombrar los juegos para que cumplan el formato que pide OPL y podamos descargar las caratulas de los juegos, como podemos ver está vacío el listado de juegos
 
+![OPL Manager Renombrar Juegos](/images/Renombrar%20Juegos-Descargar%20Caratulas-01.png)
 
+Para que se actualice la lista debemos presionar Opciones (Settings), Change OPL Mode/OPL Folder, simplemente presionamos Guardar (Save)
+
+![OPL Manager Conflicto Nombres](/images/Renombrar%20Juegos-Descargar%20Caratulas-02.png)
+
+Como podemos ver indica que hay conflicto con los nombres de algunos juegos, presionamos Aceptar
+
+![OPL Manager Conflicto Nombres](/images/Renombrar%20Juegos-Descargar%20Caratulas-03.png)
+
+Ahora seleccionemos Silent Hill Origins
+
+![OPL Manager Silent Hill Origins Seleccionado](/images/Renombrar%20Juegos-Descargar%20Caratulas-04.png)
+
+Como podemos ver a la derecha nos sale el Error: Usin incorrect naming format, para corregirlo presionemos en el botón Get title from DB
+
+![OPL Manager Silent Hill Origins Corregido](/images/Renombrar%20Juegos-Descargar%20Caratulas-05.png)
+
+Como podemos ver donde dice New file name quedo de la siguiente forma: SLUS_217.31.SILENT HILL - ORIGINS.iso, esa es la nomenclatura que necesita OPL, ahora simplemente presionemos el botón Try update name
+
+![OPL Manager Silent Hill Origins Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-06.png)
+
+Nos saldra una ventana de alerta indicado si estamos seguros de proceder, presionamos el botón Sí (Yes)
+
+![OPL Manager Silent Hill Origins Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-07.png)
+
+Como podemos ver se corrigió, ahora hacemos lo mismo con el otro juego Taito Legends
+
+![OPL Manager Taito Legends Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-08.png)
+
+Ahora como podemos ver, ya no poseemos juegos con problema en el nombre
+
+#### Renombrar Juegos PS1
+
+Para los juegos PS1 debemos seleccionarlos y ver cual es el código del juego
+
+![OPL Manager Parasite Eve Disc 1 Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-09.png)
+
+Ahora debemos modificar el nombre del juego colocar ese codigo antes del nombre manteniendo el formato SLUS_006.62.Parasite Eve (USA) (Disc 1) de forma directa en el explorador de archivos
+
+**NOTA:** Uno puede activar la opción de nuevo formato de nombres para que no sea obligatorio la nomenclatura CODIGO.NOMBREJUEGO
+
+![OPL Manager Parasite Eve Disc 1 Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-10.png)
+
+Como podemos ver ya colocamos el nombre respetando el formato, ahora refresquemos la lista de juegos del OPL Manager utilizando la opción File, Refresh list
+
+![OPL Manager Refrescar Lista](/images/Renombrar%20Juegos-Descargar%20Caratulas-11.png)
+
+![OPL Manager Refrescar Lista](/images/Renombrar%20Juegos-Descargar%20Caratulas-12.png)
+
+Como podemos ver en el path del juego Parasite Eve Disc 1 está con el código del juego en su nombre, ahora repetiremos el paso anterior con el otro disco
+
+![OPL Manager Parasite Eve Disc 2 Cambio Nombre](/images/Renombrar%20Juegos-Descargar%20Caratulas-13.png)
+
+Ahora ya estamos listos para descargar las caratulas
+
+Para eso apretamos la opción BATCH Actions, ART Download
+
+![OPL Manager Opcion ART Download](/images/Renombrar%20Juegos-Descargar%20Caratulas-14.png)
+
+![OPL Manager ART Download](/images/Renombrar%20Juegos-Descargar%20Caratulas-15.png)
+
+Como podemos ver nos muestra una nueva ventana con las opciones de descarga que poseemos, si deseamos descargar otros tipos de artes es decisión nuestra, en esta ocasión descargaré las por defecto, así que presionaremos Start
+
+![OPL Manager ART Download](/images/Renombrar%20Juegos-Descargar%20Caratulas-16.png)
+
+Como podemos ver empezo la descarga, una vez finalizado veremos la siguiente ventana
+
+![OPL Manager ART Downloaded](/images/Renombrar%20Juegos-Descargar%20Caratulas-17.png)
+
+Como podemos ver descargo las artes, asi que finalmente presionamos Aceptar y cerramos la ventana de ART Download
+
+![OPL Manager Close ART Downloaded](/images/Renombrar%20Juegos-Descargar%20Caratulas-18.png)
+
+![OPL Manager Game List](/images/Renombrar%20Juegos-Descargar%20Caratulas-19.png)
+
+Ahora los juegos estarian listos para ser utilizados en la consola, simplemente expulsar la unidad USB / HDD y probar la unidad y los juegos en la consola
 
 ### Desfragmentar Juegos
 
