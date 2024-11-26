@@ -410,3 +410,8 @@ Ahora los juegos estarian listos para ser utilizados en la consola, simplemente 
 ### Desfragmentar Juegos
 
 Cuando abrimos un juego con OPL y vemos que se queda pegado o en pantalla negra, normalmente es porque el juego esta fragmentado, esto hace que OPL tenga problemas al leer el juego
+
+
+## Cambiar Entre Discos Juego PS1
+
+Por ejemplo tenemos el juego Parasite Eve el cual posee disco 1 y 2 debemos hacer el cambio de disco cuando el juego nos lo solicita, para lograr esto debemos seguir la siguiente guía [Multi Disc](https://bitbucket.org/ShaolinAssassin/popstarter-documentation-stuff/wiki/multi-disc)
