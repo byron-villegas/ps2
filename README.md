@@ -2,6 +2,18 @@
 
 Este documento es con el fin de generar una guía de apoyo para los que todavía jugamos PS2 y queremos seguir disfrutanto esta gran consola <3
 
+## Tabla de Contenido
+- [Jugar Juegos Mediante USB / HDD](#jugar-juegos-mediante-usb--hdd)
+  - [Formeatear USB / HDD](#formeatear-usb--hdd)
+  - [OPL Manager](#opl-manager)
+  - [Descargar Juegos](#descargar-juegos)
+  - [Transformar Juegos PS2 BIN / CUE a ISO](#transformar-juegos-ps2-bin--cue-a-iso)
+  - [Pasar Juegos al USB / HDD](#pasar-juegos-al-usb--hdd)
+  - [Transformar Juegos PS1 BIN / CUE a VCD](#transformar-juegos-ps1-bin--cue-a-vcd)
+  - [Renombrar Juegos / Descargar Caratulas OPL Manager](#renombrar-juegos--descargar-caratulas-opl-manager)
+  - [Desfragmentar Juegos](#desfragmentar-juegos)
+  - [Cambiar Entre Discos Juego PS1](#cambiar-entre-discos-juego-ps1)
+
 ## Jugar Juegos Mediante USB / HDD
 
 ### Formeatear USB / HDD
@@ -325,6 +337,67 @@ Ahora simplemente copiamos estos archivos a la carpeta POPS
 
 Ahora podemos continuar con el renombramiento de los juegos y la descarga de caratulas
 
+### Transformar Juegos PS1 Multiple Track BIN / CUE a VCD
+Para este ejemplo particular descargaré el juego [Resident Evil 2 Dual Shock]([https://cdromance.org/psx-iso/parasite-eve-usa/](https://cdromance.org/psx-iso/resident-evil-2-dual-shock-ver-usa/)), presionamos el botón blanco FIND LINKS y descargamos el juego
+
+Una vez descargado descomprimiremos los 2 discos (1 leon, 2 claire)
+
+<img width="1125" height="658" alt="Transformar Juegos PS1 Multiple Track BIN-1" src="https://github.com/user-attachments/assets/34403a37-b620-4f1b-91cd-2608cea748a6" />
+
+Para transformar los juegos de PS1 Multiple Track BIN / CUE a VCD utilizaremos la aplicación **CDMage** versión **v1.02.1 beta** de este link [CDMage](https://www.videohelp.com/software/CDMage), DEBEN UTILIZAR ESA VERSIÓN EXACTA
+
+<img width="1233" height="909" alt="image" src="https://github.com/user-attachments/assets/c5a42550-5b6d-4a50-bc55-ae4895b43ee6" />
+
+Una vez descargado debemos abrirlo y descomprimirlo
+
+<img width="1122" height="657" alt="image" src="https://github.com/user-attachments/assets/793c4ccb-ac52-46d9-a2d0-b80b009b99c2" />
+
+Veremos la pantalla para descomprimir
+
+<img width="342" height="206" alt="image" src="https://github.com/user-attachments/assets/e92e179d-3a21-4a5c-b338-fcd32a0169d9" />
+
+Finalmente presionamos el botón unzip y veremos el siguiente archivo
+
+<img width="1126" height="661" alt="image" src="https://github.com/user-attachments/assets/03157cb8-6940-40b0-88ab-1bd8fe641be7" />
+
+Ahora simplemente abrimos el archivo **CDmage.exe** y veremos lo siguiente
+<img width="623" height="470" alt="image" src="https://github.com/user-attachments/assets/27824407-0aa3-4108-baf7-7f99dd112f38" />
+
+Ahora debemos presionar File --> Open y debemos seleccionar el juego de PS1 con extensión **.cue**
+
+<img width="668" height="577" alt="image" src="https://github.com/user-attachments/assets/af8f5aff-d2df-4405-88aa-bafbf43c1f65" />
+
+Finalmente presionamos abrir
+
+<img width="621" height="470" alt="image" src="https://github.com/user-attachments/assets/0d070343-fb78-4d98-aee2-eb8c055e7688" />
+
+Como podemos ver aparecen los tracks del juego, ahora simplemente presionamos el botón del disquete (Save as), debemos elegir la ruta donde guardar el nuevo BIN/CUE, crearé una carpeta aparte con el mismo nombre del juego
+
+<img width="624" height="471" alt="image" src="https://github.com/user-attachments/assets/9d8408fa-35e3-4e8c-bdea-d393ba37091e" />
+
+Seleccionamos la carpeta
+
+<img width="623" height="470" alt="image" src="https://github.com/user-attachments/assets/e7cdb2e3-f10e-4129-8c45-5b96e2c4c17f" />
+
+Finalmente presionamos el botón guardar, nos mostrará unas opciones adicionales, debemos dejarlas por defecto y presionar OK
+
+<img width="622" height="471" alt="image" src="https://github.com/user-attachments/assets/6aa78346-ab4a-434f-a7a4-6578c7e6ac3b" />
+
+Una vez completado vamos a la carpeta que creamos y veremos el nuevo BIN/CUE con los tracks combinados
+
+<img width="1127" height="660" alt="image" src="https://github.com/user-attachments/assets/9421544e-44d6-49d1-94ef-faf92f1c4af8" />
+
+Ahora eliminaré los archivos con track para poder convertir el juego a VCD (POP)
+
+<img width="1124" height="660" alt="image" src="https://github.com/user-attachments/assets/8897ca29-2fd5-4bc3-b127-5d503d519d8a" />
+
+Ahora simplemente arrastramos el archivo extensión **.cue** a **cue2pops.exe** para que genere el archivo VCD
+
+<img width="1126" height="662" alt="image" src="https://github.com/user-attachments/assets/a7d34c89-29b8-4b96-8a39-c60b71abb34c" />
+
+Con esto estariamos listos para pasar el juego de ps1 al disco duro
+
+
 ### Renombrar Juegos / Descargar Caratulas OPL Manager
 
 Ahora que pasamos los juegos volvamos a OPL Manager para renombrar los juegos para que cumplan el formato que pide OPL y podamos descargar las caratulas de los juegos, como podemos ver está vacío el listado de juegos
@@ -412,6 +485,6 @@ Ahora los juegos estarian listos para ser utilizados en la consola, simplemente 
 Cuando abrimos un juego con OPL y vemos que se queda pegado o en pantalla negra, normalmente es porque el juego esta fragmentado, esto hace que OPL tenga problemas al leer el juego
 
 
-## Cambiar Entre Discos Juego PS1
+### Cambiar Entre Discos Juego PS1
 
 Por ejemplo tenemos el juego Parasite Eve el cual posee disco 1 y 2 debemos hacer el cambio de disco cuando el juego nos lo solicita, para lograr esto debemos seguir la siguiente guía [Multi Disc](https://bitbucket.org/ShaolinAssassin/popstarter-documentation-stuff/wiki/multi-disc)
