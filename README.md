@@ -10,6 +10,7 @@ Este documento es con el fin de generar una guía de apoyo para los que todavía
   - [Transformar Juegos PS2 BIN / CUE a ISO](#transformar-juegos-ps2-bin--cue-a-iso)
   - [Pasar Juegos al USB / HDD](#pasar-juegos-al-usb--hdd)
   - [Transformar Juegos PS1 BIN / CUE a VCD](#transformar-juegos-ps1-bin--cue-a-vcd)
+  - [Transformar Juegos PS2 Multiple Track BIN / CUE a VCD](#transformar-juegos-ps1-multiple-track-bin--cue-a-vcd)
   - [Renombrar Juegos / Descargar Caratulas OPL Manager](#renombrar-juegos--descargar-caratulas-opl-manager)
   - [Desfragmentar Juegos](#desfragmentar-juegos)
   - [Cambiar Entre Discos Juego PS1](#cambiar-entre-discos-juego-ps1)
